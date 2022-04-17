@@ -3,7 +3,6 @@ const display = document.querySelector(".display")
 const AC = document.querySelector('.clear')
 const Del = document.querySelector('.del')
 const equal = document.querySelector('.equal')
-console.log(AllBtn)
 
 AllBtn.forEach(button=> {
     button.addEventListener('click', ()=> {
