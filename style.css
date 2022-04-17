@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, rgb(74, 189, 224), rgb(101, 224, 101));
+    background: linear-gradient(to right, rgb(74, 134, 224), rgb(226, 125, 230));
     font-family: Gotham Rounded, sans-serif;
     font-weight: normal;
 }
@@ -25,11 +25,11 @@ body {
     border: 1px solid white;
     outline: none;
     background-color: rgba(255, 255, 255, .75);
-    box-shadow: 10px 22px 30px 3px rgb(120, 155, 131);
+    box-shadow: 10px 22px 30px 3px rgb(144, 90, 187);
 }
 
 .calculator > button:hover {
-    background-color: rgba(255, 255, 255, .9);
+    background-color: rgba(255, 255, 255, 0.9);
     /* box-shadow: 0 0 0 0 white; */
 }
 
@@ -41,7 +41,7 @@ body {
     grid-column: 1 / -1;
     background-color: black;
     color: rgb(255, 255, 255);
-    box-shadow: 10px 22px 30px 3px gray;
+    box-shadow: 10px 22px 30px 3px rgb(141, 89, 148);
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
